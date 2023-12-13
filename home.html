@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/qwe.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />
+    <title>FoodSum</title>
+  </head>
+  <body style="background-image: images/cz">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar2">
+      <div class="container">
+           <a class="navbar-brand" href="home.html"><i class="bi bi-house"></i>&ensp;FoodSum</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                          <a class="nav-link btn btn-outline-danger" aria-current="page" href="home.html">Home</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle btn btn-outline-danger" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Lokasi </a>
+                          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                               <li><a class="dropdown-item" href="medan.html">Medan</a></li>
+                               <li><a class="dropdown-item" href="siantar.html">Siantar</a></li>
+                               <li><a class="dropdown-item" href="tarutung.html">Tarutung</a></li>
+                               <li><a class="dropdown-item" href="parapat.html">Parapat</a></li>
+                               <li><a class="dropdown-item" href="samosir.html">Samosir</a></li>
+                               <li><a class="dropdown-item" href="brastagi.html">Berastagi</a></li>
+                          </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle btn btn-outline-danger" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>
+                          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                               <li><a class="dropdown-item" href="umum.html">Umum</a></li>
+                               <li><a class="dropdown-item" href="spesial.html">Spesial</a></li>
+                          </ul>
+                     </li>
+                     <li class="nav-item">
+                          <a class="nav-link btn btn-outline-danger" aria-current="page" href="aboutUs.html">About Us</a>
+                     </li>
+                </ul>
+           </div>
+      </div>
+ </nav>
+    <!--jumbotron-->
+    <section class="background">
+      <p class="text-center fst-italic topik">Rekomendasi Kuliner<br />Di<br />Sumatera Utara</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#FCF0C8"
+          fill-opacity="1"
+          d="M0,128L34.3,138.7C68.6,149,137,171,206,192C274.3,213,343,235,411,245.3C480,256,549,256,617,224C685.7,192,754,128,823,106.7C891.4,85,960,107,1029,144C1097.1,181,1166,235,1234,240C1302.9,245,1371,203,1406,181.3L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--konten-->
+    <section class="toplist "> 
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 class="top-list">TOP LIST REKOMENDASI</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="images/meranti5.jpg" class="card-img-top" alt="gambar4" />
+              <div class="card-body"><a href="#" class="btn btn-primary d-grid gap-2 col-6 mx-auto" data-bs-toggle="modal" data-bs-target="#Modal1" >Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="images/bpkaro.jpg" class="card-img-top" alt="gambar5" />
+              <div class="card-body"><a href="#" class="btn btn-primary d-grid gap-2 col-6 mx-auto" data-bs-toggle="modal" data-bs-target="#Modal2">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card">
+              <img src="images/ganda3.jpg" class="card-img-top" alt="gambar6" />
+              <div class="card-body"><a href="#" class="btn btn-primary d-grid gap-2 col-6 mx-auto" data-bs-toggle="modal" data-bs-target="#Modal3">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+  <!-- Modal1 -->
+        <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">1. Bolu Meranti</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="images/meranti2.jpg" class="imgmodal mx-auto d-block pb-2"/><p class="modal-detail">Bolu meranti merupakan oleh oleh khas Medan yang paling banyak digemari orang banyak. Dalam hal kualitas rasa, tidak diragukan lagi memang jagoan. Tekstur cake lembut dan fresh. Bahkan setelah dimasukkan ke lemari pendingin beberapa hari masih terasa moist. Aroma
+                  cake terasa lembut. After taste terasa creamy, karena pemakaian butter dan margarin yang dominan, namun diimbangi oleh bahan berkualitas tinggi. Pelanggan yang datang ternyata tidak terbatas pada turis lokal yang datang ke Medan, namun juga turis dari manca negara
+                  seperti Malaysia, Singapura, Jepang dan China. Harga bolu meranti ini berkisar 70.000- 95.000</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Modal2 -->
+         <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">2. BPK Tesalonika</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="images/bpktesa2.jpg" class="imgmodal mx-auto d-block pb-2"/><p class="modal-detail">Bila Teman-teman ada yang sedang ke Medan dan suka makan BPK maka tidak asing lagi dengan nama Rumah Makan Tesalonika ini yang terkenal di Jl Jamin Ginting Medan. Namun kali ini kami makan sebelum ke Bandara Kuala Namu di Jl Padang Golf CBD Polonia Lubuk Pakam.
+                  Tempatnya cukup Luas dan juga tersedia ruangan ber AC (harus nambah Rp, 2000 / orang ) jadi walaupun di Jakarta sudah banyak tempat makan BPK terkenal namun kalau sedang ke Medan maka RM. Tesalonika selalu jadi tujuan.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Modal3 -->
+         <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">3. Roti Ganda</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="images/ganda4.jpg" class="imgmodal mx-auto d-block pb-2"/><p class="modal-detail">Toko roti Ganda ini sangat terkenal jika berkunjung ke Siantar pasti mampir di toko roti ini. Roti yang paling favorit adalah Roti bantal dengan krim dan coklat tabur. Selain itu juga terkenal dengan Srikayanya yang enak. Kue-kue tradisionalnya seperti ketupat
+                  pulut, wajik juga sangatlah enak. Toko ini setiap hari selalu ramai, jadi jika ingin berkunjung ke toko ini harus sabar ngantri roti ganda ini harganya berkisar 5.000- 45.000.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer text-white text-center p-1">
+      <p class="pt-2">Copyright &copy; FoodSum - Team 5 2021</p>
+    </footer>
+    
+  </body>
+</html>
+
+
+
+
+

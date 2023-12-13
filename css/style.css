@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+.toplist {
+     background-color: #fcf0c8;
+     padding-bottom: 20vh;
+}
+
+.judulList {
+     margin-bottom: 100px;
+}
+
+.navbar2 {
+     background-color: #911f27;
+}
+
+footer {
+     background-color: #630a10;
+}
+
+.modal-title {
+     margin-left: 35%;
+}
+.card-img-top {
+     width: auto;
+     height: 200px;
+}
+
+.background {
+     background-image: url(../images/222.jpg);
+     background-attachment: fixed;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+}
+
+.topik {
+     padding-top: 100px;
+     font-size: 4.5vw;
+     color: #fcf0c8;
+     font-weight: 700;
+     font-family: "Bungee Inline", cursive;
+     text-shadow: 2px 5px #000000;
+}
+
+.imgmodal {
+     width: 200px;
+     height: 200px;
+}
+
+.btn {
+     border: none;
+}
+
+.card {
+     background-color: rgba(194, 181, 181, 0.6);
+}
+.navbar-brand {
+     font-family: "Merienda One", cursive;
+}
+.modal-detail {
+     text-indent: 50px;
+     text-align: justify;
+}
+.top-list {
+     font-family: "Delius", cursive;
+     font-weight: 800;
+}

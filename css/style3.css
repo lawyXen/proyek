@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+.navbar2 {
+     background-color: #911f27;
+}
+
+footer {
+     background-color: #630a10;
+}
+
+body {
+     background-image: url(../images/bglok2.jpg);
+     background-size: 100% 100%;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+.carousel img {
+     height: 300px;
+}
+.topik {
+     font-size: 3.5rem;
+     color: rgb(200, 255, 0);
+     font-family: "Delius", cursive;
+     text-shadow: 2px 5px #000000;
+}
+.bg-gradient {
+     background-color: rgb(252, 240, 200, 0.6);
+}
+
+.btn {
+     border: none;
+}
+
+.navbar-brand {
+     font-family: "Merienda One", cursive;
+}
+.detail-info {
+     text-align: justify;
+     text-indent: 50px;
+     font-family: "Balsamiq Sans", cursive;
+}
+.detail-judul {
+     font-family: "Kaushan Script", cursive;
+}
